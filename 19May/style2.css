@@ -1,0 +1,15 @@
+#d1{
+    display: inline-block;
+    width:48%;
+    border:1px solid;
+}
+#d2{
+    display: inline-block;
+    width:48%;
+    border:1px solid;
+}
+@media (max-width: 400px){
+    #d1, #d2{
+        width:100%;
+    }
+}

@@ -1,0 +1,58 @@
+
+#x{
+    color:blue;
+    font-weight:500;
+}
+
+p{
+    text-align: center;
+    font-weight:900;
+}
+
+.same2{
+    font-size:25px;
+    font-weight:900;
+}
+.same{
+    font-size:20px;
+    font-weight:100;
+}
+p>span{
+    color:red;
+}
+.same a{
+    color:purple;
+}
+a.same{
+    text-decoration: underline;
+}
+p, a, strong{
+    background-color: pink;
+}
+
+input[type=text]{
+    color:blue;
+}
+
+p[myattr]{
+    text-decoration: line-through;
+}
+
+
+@media (max-width:500px){
+   body{
+        background:purple;
+    }
+}
+
+@media (max-width:800px) and (min-width:500px){
+   body{
+        background:red;
+    }
+}
+
+@media (max-width:1000px) and (min-width:800px){
+   body{
+        background:blue;
+    }
+}
